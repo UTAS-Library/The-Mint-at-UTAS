@@ -1,7 +1,5 @@
-Mint - Local Curation Demo
+Mint - Local UTAS build
 ======================
-
-Sample institutional build with file system storage and local curation.
 
 Downloaded the latest builds here:
 
