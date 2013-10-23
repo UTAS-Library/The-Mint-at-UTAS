@@ -5,7 +5,7 @@
   <artifactId>mint-local-curation-demo</artifactId>
   <version>1.6.3-SNAPSHOT</version>
   <packaging>${packaging}</packaging>
-  <name>The Mint - Local Curation Demo</name>
+  <name>The Mint - University of Tasmania</name>
   <parent>
     <groupId>com.googlecode.redbox-mint</groupId>
     <artifactId>mint</artifactId>
