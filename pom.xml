@@ -13,7 +13,7 @@
   </parent>
   <properties>
     <!-- Used in build -->
-    <mint.version>1.6.2-SNAPSHOT</mint.version>
+    <mint.version>1.6.2</mint.version>
     <!-- Runtime values, will replace placeholders
              in config and control scripts -->
     <packaging>pom</packaging>
@@ -29,8 +29,8 @@
     <dir.storage>${project.home}/storage</dir.storage>
     <dir.geonames>${dir.home}/geonames/solr</dir.geonames>
     <server.url.base>http://${ip.address}:${server.port}/mint/</server.url.base>
-    <smtp.host>localhost</smtp.host>
-    <admin.email>admin@localhost</admin.email>
+    <smtp.host>postoffice.utas.edu.au</smtp.host>
+    <admin.email>Sue.Li@utas.edu.au</admin.email>
     <!-- Control scripts try to auto-detect proxy. Use this value if you
              want Java to specifically exclude certain hosts from proxying. -->
     <non.proxy.hosts>localhost</non.proxy.hosts>
