@@ -2,13 +2,13 @@
     "harvester": {
         "type": "csv",
         "csv": {
-            "fileLocation": "${fascinator.home}/data/Group_Sample.csv",
+            "fileLocation": "${fascinator.home}/data/groups.csv",
             "idColumn": "ID",
             "recordIDPrefix": "redbox-mint.googlecode.com/parties/group/",
             "headerRow": true,
             "delimiter": ",",
             "ignoredFields": [],
-            "includedFields" : ["ID", "Name", "Email", "Phone", "Parent_Group_ID", "URI", "NLA_Party_Identifier", "Homepage", "Description"]
+            "includedFields" : ["ID", "PARENT_GROUP_ID", "NAME", "EMAIL", "PHONE", "URI", "NLA_PARTY_IDENTIFIER", "DESCRIPTION", "HOMEPAGE"]
         }
     },
 

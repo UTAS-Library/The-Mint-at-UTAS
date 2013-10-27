@@ -2,13 +2,13 @@
     "harvester": {
         "type": "csv",
         "csv": {
-            "fileLocation": "${fascinator.home}/data/People_Sample.csv",
+            "fileLocation": "${fascinator.home}/data/staff.csv",
             "idColumn": "ID",
             "recordIDPrefix": "redbox-mint.googlecode.com/parties/people/",
             "headerRow": true,
             "delimiter": ",",
             "ignoredFields": [],
-            "includedFields" : ["ID", "Given_Name", "Other_Names", "Family_Name", "Pref_Name", "Honorific", "Email", "Job_Title", "GroupID_1", "GroupID_2", "GroupID_3", "ANZSRC_FOR_1", "ANZSRC_FOR_2", "ANZSRC_FOR_3", "URI", "NLA_Party_Identifier", "ResearcherID", "openID", "Personal_URI", "Personal_Homepage", "Staff_Profile_Homepage", "Description"]
+            "includedFields" : ["ID", "Given_Name", "Other_Names", "Family_Name", "Pref_Name", "Name_with_Initial", "Honorific", "Email", "Job_Title", "Affiliation", "Group_ID_1", "Group_ID_2", "Group_ID_3","ANZSRC_FOR_1", "ANZSRC_FOR_2", "ANZSRC_FOR_3", "URI", "NLA_Party_Identifier", "Researcher_ID", "Open_ID", "Personal URI", "Personal_Homepage", "Staff_Profile_Homepage", "Description"]
         }
     },
 
@@ -26,17 +26,17 @@
             "sourcePid": "metadata.json",
             "sourcePath": ["data"],
             "relations": {
-                "GroupID_1": {
+                "Group_ID_1": {
                     "prefix": "redbox-mint.googlecode.com/parties/group/",
                     "relation": "isMemberOf",
                     "reverseRelation": "hasMember"
                 },
-                "GroupID_2": {
+                "Group_ID_2": {
                     "prefix": "redbox-mint.googlecode.com/parties/group/",
                     "relation": "isMemberOf",
                     "reverseRelation": "hasMember"
                 },
-                "GroupID_3": {
+                "Group_ID_3": {
                     "prefix": "redbox-mint.googlecode.com/parties/group/",
                     "relation": "isMemberOf",
                     "reverseRelation": "hasMember"
